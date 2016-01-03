@@ -1,13 +1,13 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for CV/Resume
+% Awesome CV LaTeX Template for Cover Letter
 %
 % This template has been downloaded from:
 % https://github.com/posquit0/Awesome-CV
 %
-% Author:
+% Authors:
 % Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
+% Lars Richter <mail@ayeks.de>
 %
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -29,7 +29,11 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+$if(color)$
+  \colorlet{awesome}{$color$}
+$else$
+  \colorlet{awesome}{awesome-red}
+$endif$
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -52,28 +56,58 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+% \photo[circle,noedge,left]{./examples/profile}
+$if(photo)$\photo[$photo.mode$]{$photo.location$}$endif$
+\name{$name.first$}{$name.last$}
+$if(position)$
+  \position{
+    $for(position)$
+      $position$$sep${\enskip\cdotp\enskip}
+    $endfor$
+  }
+$endif$
+$if(address)$
+  \address{
+    $for(address)$
+      $address$$sep$,
+    $endfor$
+  }
+$endif$
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
+$if(phone)$\mobile{$phone$}$endif$
+$if(email)$\email{$email$}$endif$
+$if(homepage)$\homepage{$homepage$}$endif$
+$if(github)$\github{$github$}$endif$
+$if(gitlab)$\gitlab{$gitlab$}$endif$
+$if(stackoverflow)$\stackoverflow{$stackoverflow.id$}{$stackoverflow.name$}$endif$
+$if(linkedin)$\linkedin{$linkedin$}$endif$
+$if(twitter)$\twitter{$twitter$}$endif$
+$if(skype)$\skype{$skype$}$endif$
+$if(reddit)$\reddit{$reddit$}$endif$
+$if(extrainfo)$\extrainfo{$extrainfo$}$endif$
 
-\quote{``Be the change that you want to see in the world."}
+$if(quote)$\quote{``$quote$"}$endif$
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {$recipient.name$}
+  {$for(recipient.address)$$recipient.address$$sep$\\$endfor$}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{$letter.job$}
+% How the letter is opened
+\letteropening{$letter.opening$}
+% How the letter is closed
+\letterclosing{$if(letter.closing)$$letter.closing$$else$Sincerely,$endif$}
+% Any enclosures with the letter
+$if(letter.attachments)$
+  \letterenclosure[Attached]{$for(letter.attachments)$$letter.attachments$$sep$, $endfor$}
+$endif$
 
 
 %-------------------------------------------------------------------------------
@@ -81,29 +115,31 @@
 
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader
+\makecvheader[R]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {$name.first$ $name.last$~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+  $for(sections)$
+    $if(pretty)$\lettersection{$sections.name$}$endif$
+    $sections.text$
+  $endfor$
+\end{cvletter}
 
 
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%-------------------------------------------------------------------------------
-\input{cv/education.tex}
-\input{cv/skills.tex}
-\input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
 
-
-%-------------------------------------------------------------------------------
 \end{document}

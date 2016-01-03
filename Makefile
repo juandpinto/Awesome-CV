@@ -1,22 +1,22 @@
-.PHONY: examples
+FILES = cv coverletter
+PERSON ?=
 
-CC = xelatex
-EXAMPLES_DIR = examples
-RESUME_DIR = examples/resume
-CV_DIR = examples/cv
-RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
-CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+$(if ${PERSON}, $(eval SUFFIX = -${PERSON}))
 
-examples: $(foreach x, coverletter cv resume, $x.pdf)
+# Define HOST in order to run Makefile on host machine, otherwise it will run through docker image
+# make #=> run pandoc through docker
+# HOST=1 make #=> run pandoc on local machine
+ifndef HOST
+	# If you'd like to use pandoc with docker (idea taken from https://github.com/ntfc/Awesome-CV)
+	RUN = docker run -ti --rm -e PUID=`id -u` -e PGID=`id -g` -v $(shell pwd):/source silviof/docker-pandoc:latest
+else
+	RUN = pandoc
+endif
 
-resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+$(FILES):
+	$(RUN) data/details${SUFFIX}.yml data/$@${SUFFIX}.yml -o results/$@${SUFFIX}.pdf --template=$@.tex --standalone --latex-engine=xelatex
 
-cv.pdf: $(EXAMPLES_DIR)/cv.tex $(CV_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
-
-coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+.PHONY: $(FILES) clean
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm *.aux *.log *.out

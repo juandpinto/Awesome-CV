@@ -1,3 +1,30 @@
+=======
+# Awesome CV
+This is an implementation to take advantage of the great [**Awesome CV**](https://github.com/posquit0/Awesome-CV) created by posquit0 and add an additional layer through the use of `pandoc` in order to keep all the personal details away from the template and easy to update. All the layouts will be used and anyone just need to edit the respective `.yml` files in order to create the CV/Coverletter. The YAML files provided contain mocked data. The migration to `Pandoc` was heavily inspired in this fork from [ntfc/Awesome-CV](https://github.com/posquit0/Awesome-CV).
+
+Further below, a section for installing dependencies, including the instructions to use this version, and the original documentation for Awesome CV.
+
+## Installation
+### Dependencies
+By default, `Makefile` is set to use an already prepared docker image with `Latex` and `Pandoc` to compile the files. If you want to use your host machine, then the setup is below.
+
+1. LaTeX with the following extra packages: `enumitem` `xifthen` `ifmtarg` `unicode-math` `ucharcat` `filehook` `import` `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref` `polyglossia`
+2. [Pandoc](http://pandoc.org/), the universal document converter.
+
+To install LaTeX on Mac OS X, I recommend getting the smaller version BasicTeX from [here](https://tug.org/mactex/morepackages.html) and installing the additional packages with `tlmgr` afterwards. Same goes for Linux: install `texlive-base` with your package manager and add the needed additional packages later.
+
+To install `pandoc` on Mac OS X, run `brew install pandoc`. To install it on Linux, refer to the [official docs](http://pandoc.org/installing.html).
+
+### How to Use
+1. Create the file `details.yml` from the `details.example.yml` file provided. This file contains general information and is used in both the Coverletter and the CV.
+2. Create the file `cv.yml`/`coverletter.yml` from the respective `*.example.yml` files provided.
+3. Open the file you want and fill it with your details and what you wish to be on your CV/Coverletter.
+4. Run `make cv`/`make coverletter` to compile the PDF version using `Docker`. Optionally, you can run the same commands with the `HOST` variable defined in order to run these commands in your host machine (i.e. `HOST=1 make cv`).
+
+--------------------------------------------------------------------------------
+
+# Original Documentation
+
 <h1 align="center">
   <a href="https://github.com/posquit0/Awesome-CV" title="AwesomeCV Documentation">
     <img alt="AwesomeCV" src="https://github.com/posquit0/Awesome-CV/raw/master/icon.png" width="200px" height="200px" />

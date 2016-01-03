@@ -1,0 +1,29 @@
+---
+name:
+  first: Claud D.
+  last: Park
+address:
+  - 246-1002
+  - Gwangmyeongmayrouge Apt. 86
+  - "Cheongna lime-ro, Seo-gu"
+  - "Incheon-si, 22738"
+  - Rep. of KOREA
+born: January 1st, 1970
+phone: "(+82) 10-9030-1843"
+email: "posquit0.bj@gmail.com"
+homepage: www.posquit0.com
+github: posquit0
+linkedin: posquit0
+twitter: posquit0
+skype: posquit0
+reddit: posquit0
+stackoverflow:
+  id: example
+  name: example
+extrainfo: something
+position: [Software Engineer, Security Expert]
+color: awesome-red
+date: true
+
+quote: "Must be the change that you want to see in the world."
+---

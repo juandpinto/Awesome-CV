@@ -1,0 +1,194 @@
+---
+summary: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus
+  facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra
+  tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis
+  tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget,
+  eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at
+  felis accumsan rhoncus.
+
+experience:
+  - period: Aug. 2014 - Exp. Apr. 2016
+    employer: R.O.K Cyber Command, MND
+    position: Software Engineer & Security Researcher (Compulsory Military Service)
+    location: Seoul, S.Korea
+    roles:
+      - "Implemented a military cooperation system which is web based real time messenger in Scala on Lift."
+      - "Improved functionality on military command and control system for incident response with Java Servlet."
+      - "Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT."
+    # TODO: keywords?
+    keywords: [JavaEE, Maven, Docker, bash, Spring, Tomcat]
+  - period: Jan. 2013 - Feb. 2013
+    employer: NEXON
+    position: Game Developer Intern at Global Internship Program
+    location: Seoul, S.Korea & LA, U.S.A
+    roles:
+      - "Developed in Cocos2d-x an action puzzle game(Dragon Buster) targeting U.S. market. Implemented API server which is communicating with game client and In-App Store, along with two other team members who wrote the game logic, designed game graphics."
+      - "Won the 2nd prize in final evaluation."
+  - period: Sep. 2012 - Feb. 2013
+    employer: Undergraduate Research, Computer Vision Lab(Prof. Bohyung Han)
+    position: Researcher for <Detecting video’s torrents using image similarity algorithms>
+    location: Pohang, S.Korea
+    roles:
+      - "Researched means of retrieving a corresponding video based on image contents using image similarity algorithm."
+      - "Implemented prototype that users can obtain torrent magnet links of corresponding video relevant to an image on web site."
+  - period: Jul. 2012 - Jun. 2013
+    employer: Software Maestro (funded by Korea Ministry of Knowledge and Economy)
+    position: Software Engineer Trainee
+    location: Seoul, S.Korea
+    roles:
+      - "Performed research memory management strategies of OS and implemented in Python an interactive simulator for Linux kernel memory management."
+  - period: Dec. 2011 - Feb. 2012
+    employer: ShitOne Corp. (Start-up company)
+    position: Software Engineer
+    location: Seoul, S.Korea
+    roles:
+      - "Developed a proxy drive smartphone application which connects proxy driver and customer. Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding."
+  - period: Sep. 2013, Mar. 2011 - Oct. 2011
+    employer: SAMSUNG Electronics
+    position: Freelance Penetration Tester
+    location: S.Korea
+    roles:
+      - "Conducted penetration testing on SAMSUNG KNOX, which is solution for enterprise mobile security."
+      - "Conducted penetration testing on SAMSUNG Smart TV."
+
+skills:
+  - topic: Programming
+    list: [Python, C/C++, Scala, JAVA, Node.JS, OCaml, LaTeX]
+  - topic: Web
+    list: [Django with Python, Express with Node.JS, HTML5, LESS]
+
+education:
+  - period: Mar. 2010 - PRESENT
+    subject: B.S. in Computer Science and Engineering
+    institute: POSTECH(Pohang University of Science and Technology)
+    location: Pohang, S.Korea
+    modules:
+      - "Got a Chun Shin-Il Scholarship which is given to promising students in CSE Dept."
+
+languages:
+  - language: Korean
+    proficiency: Mother tongue
+  - language: English
+    proficiency: Fluent (speaking, reading, writing)
+  - language: Japanese
+    proficiency: Intermediate (speaking, reading); Basic (writing)
+  - language: Chinese
+    proficiency: Intermediate (reading); Basic (speaking, writing)
+
+extra:
+  - activity: B10S (B1t 0n the Security, Underground hacker team)
+    period: Nov. 2011 - PRESENT
+    location: S.Korea
+    role: Core Member
+    description:
+      - "Gained expertise in penetration testing areas, especially targeted on web application and software."
+      - "Participated on a lot of hacking competition and won a good award."
+      - "Held several hacking competitions non-profit, just for fun."
+  - activity: WiseGuys (Hacking & Security research group)
+    period: Jun. 2012 - PRESENT
+    location: S.Korea
+    role: Member
+    description:
+      - "Gained expertise in hardware hacking areas from penetration testing on several devices including wireless router, smartphone, CCTV and set-top box."
+      - "Trained wannabe hacker about hacking technique from basic to advanced and ethics for white hackers by hosting annual Hacking Camp."
+  - activity: PoApper (Developers' Network of POSTECH)
+    period: Jun. 2010 - PRESENT
+    location: Pohang, S.Korea
+    role: Core Member & President at 2013
+    description:
+      - "Reformed the society focusing on software engineering and building network on and off campus."
+      - "Proposed various marketing and network activities to raise awareness."
+  - activity: PLUS (Laboratory for UNIX Security in POSTECH)
+    period: Sep. 2010 - Oct. 2011
+    location: Pohang, S.Korea
+    role: Member
+    description:
+      - "Gained expertise in hacking & security areas, especially about internal of operating system based on UNIX and several exploit techniques."
+      - "Participated on several hacking competition and won a good award."
+      - "Conducted periodic security checks on overall IT system as a member of POSTECH CERT."
+      - "Conducted penetration testing commissioned by national agency and corporation."
+  - activity: MSSA (Management Strategy Club of POSTECH)
+    period: Sep. 2013 - PRESENT
+    location: Pohang, S.Korea
+    role: Member
+    description:
+      - "Gained knowledge about several business field like Management, Strategy, Financial and marketing from group study."
+      - "Gained expertise in business strategy areas and inisght for various industry from weekly industry analysis session."
+
+honors:
+  - type: International
+    awards:
+    - position: Finalist
+      competition: DEFCON 22nd CTF Hacking Competition World Final
+      location: Las Vegas, U.S.A
+      period: 2014
+    - position: Finalist
+      competition: DEFCON 21st CTF Hacking Competition World Final
+      location: Las Vegas, U.S.A
+      period: 2013
+    - position: Finalist
+      competition: DEFCON 19th CTF Hacking Competition World Final
+      location: Las Vegas, U.S.A
+      period: 2011
+    - position: 6th Place
+      competition: SECUINSIDE Hacking Competition World Final
+      location: Seoul, S.Korea
+      period: 2012
+  - type: Domestic
+    awards:
+    - position: 3rd Place
+      competition: WITHCON Hacking Competition Final
+      location: Seoul, S.Korea
+      period: 2015
+    - position: Silver Prize
+      competition: KISA HDCON Hacking Competition Final
+      location: Seoul, S.Korea
+      period: 2013
+
+presentation:
+  - title: 'Presenter for \<DEFCON 20th : The way to go to Las Vegas\>'
+    conference: 6th CodeEngn (Reverse Engineering Conference)
+    location: Seoul, S.Korea
+    period: Jul. 2012
+    description:
+      - Introduced CTF(Capture the Flag) hacking competition and advanced techniques and strategy for CTF
+  - title: 'Presenter for \<Metasploit 101\>'
+    conference: 6th Hacking Camp - S.Korea
+    location: S.Korea
+    period: Sep. 2012
+    description:
+      - Introduced basic procedure for penetration testing and how to use Metasploit
+
+writing:
+  - role: Founder & Writer
+    title: A Guide for Developers in Start-up
+    location: Facebook Page
+    period: Jan. 2015 - PRESENT
+    description:
+      - Drafted daily news for developers in Korea about IT technologies, issues about start-up.
+  - role: Undergraduate Student Reporter
+    title: AhnLab
+    location: S.Korea
+    period: Oct. 2012 - Jul. 2013
+    description:
+      - Drafted reports about IT trends and Security issues on AhnLab Company magazine.
+
+committees:
+  - role: Organizer & Co-director
+    title: 1st POSTECH Hackathon
+    location: S.Korea
+    period: 2013
+  - role: Staff
+    title: 7th Hacking Camp
+    location: S.Korea
+    period: 2012
+  - role: Problem Writer
+    title: 1st Hoseo University Teenager Hacking Competition
+    location: S.Korea
+    period: 2012
+  - role: Staff & Problem Writer
+    title: JFF(Just for Fun) Hacking Competition
+    location: S.Korea
+    period: 2012
+---
