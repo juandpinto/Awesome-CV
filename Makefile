@@ -14,7 +14,8 @@ else
 endif
 
 $(FILES):
-	$(RUN) data/details${SUFFIX}.yml data/$@${SUFFIX}.yml -o results/$@${SUFFIX}.pdf --template=$@.tex --standalone --latex-engine=xelatex
+	mkdir -p results/
+	$(RUN) data/details${SUFFIX}.yml data/$@${SUFFIX}.yml -o results/$@${SUFFIX}.pdf --template=$@.tex --standalone --pdf-engine=xelatex
 
 .PHONY: $(FILES) clean
 
