@@ -1,0 +1,143 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=.9in, top=.9in, right=.9in, bottom=.9in, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\renewcommand{\today}{\ifcase \month \or January\or February\or March\or %
+April\or May \or June\or July\or August\or September\or October\or November\or %
+December\fi\  \number \year}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% \definecolor{text}{HTML}{414141}
+% \definecolor{graytext}{HTML}{414141}
+% \definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+% \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{$name.first$}{$name.last$}
+$if(position)$
+  \position{
+    $for(position)$
+      $position$$sep${\enskip\cdotp\enskip}
+    $endfor$
+  }
+$endif$
+$if(address)$
+  \address{
+    $for(address)$
+      $address$$sep$,
+    $endfor$
+  }
+$endif$
+$if(phone)$\mobile{$phone$}$endif$
+%%% Social
+$if(email)$\email{$email$}$endif$
+$if(homepage)$\homepage{$homepage$}$endif$
+$if(github)$\github{$github$}$endif$
+$if(gitlab)$\gitlab{$gitlab$}$endif$
+$if(stackoverflow)$\stackoverflow{$stackoverflow.id$}{$stackoverflow.name$}$endif$
+$if(linkedin)$\linkedin{$linkedin$}$endif$
+$if(twitter)$\twitter{$twitter$}$endif$
+$if(skype)$\skype{$skype$}$endif$
+$if(reddit)$\reddit{$reddit$}$endif$
+$if(extrainfo)$\extrainfo{$extrainfo$}$endif$
+$if(quote)$\quote{``$quote$"}$endif$
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {$recipient.name$}
+  {$for(recipient.address)$$recipient.address$$sep$\\$endfor$}
+\letterdate{\today}
+\lettertitle{$tptitle$}
+\letteropening{$tptext$}
+\letterclosing{$if(letter.closing)$$letter.closing$$else$Sincerely,$endif$}
+$if(letter.attachments)$
+  \letterenclosure[Attached]{$for(letter.attachments)$$letter.attachments$$sep$, $endfor$}
+$endif$
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {$name.first$ $name.last$~~~·~~~Teaching Philosophy}
+  {\thepage}
+
+% Print the title with above letter informations
+\maketptitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+  $for(sections)$
+    $if(pretty)$\lettersection{$sections.name$}$endif$
+    $sections.text$
+  $endfor$
+\end{cvletter}
+
+
+\end{document}

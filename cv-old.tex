@@ -1,0 +1,401 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=.9in, top=.9in, right=.9in, bottom=.9in, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+$if(color)$
+  \colorlet{awesome}{$color$}
+$else$
+  \colorlet{awesome}{awesome-red}
+$endif$
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+%%% PDF setup
+\hypersetup{
+  pdftitle={$name.first$\ $name.last$'s CV},
+  pdfauthor={$name.first$\ $name.last$},
+  pdfsubject={$name.first$\ $name.last$'s CV}
+}
+
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\renewcommand{\today}{\ifcase \month \or January\or February\or March\or %
+April\or May \or June\or July\or August\or September\or October\or November\or %
+December\fi\  \number \year}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\name{$name.first$}{$name.last$}
+$if(position)$
+  \position{
+    $for(position)$
+      $position$$sep${\enskip\cdotp\enskip}
+    $endfor$
+  }
+$endif$
+$if(address)$
+  \address{
+    $for(address)$
+      $address$$sep$,
+    $endfor$
+  }
+$endif$
+$if(phone)$\mobile{$phone$}$endif$
+%%% Social
+$if(email)$\email{$email$}$endif$
+$if(homepage)$\homepage{$homepage$}$endif$
+$if(github)$\github{$github$}$endif$
+$if(stackoverflow)$\stackoverflow{$stackoverflow.id$}{$stackoverflow.name$}$endif$
+$if(linkedin)$\linkedin{$linkedin$}$endif$
+$if(twitter)$\twitter{$twitter$}$endif$
+$if(mastodon)$\mastodon{$mastodon$}$endif$
+$if(skype)$\skype{$skype$}$endif$
+$if(reddit)$\reddit{$reddit$}$endif$
+$if(extrainfo)$\extrainfo{$extrainfo$}$endif$
+$if(quote)$\quote{``$quote$"}$endif$
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {$if(date)$\today$endif$}
+  {$name.first$ $name.last$~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%-------------------------------------------------------------------------------
+
+%% Summary
+$if(summary)$
+  \cvsection{Summary}
+  \begin{cvparagraph}
+    % --- Important empty line
+
+    $summary$
+  \end{cvparagraph}
+$endif$
+
+%% Education
+$if(education)$
+  \cvsection{Education}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(education)$
+      \cventry
+      {$education.subject$}
+      {$education.institute$}
+      {$education.location$}
+      {$education.period$}
+      {
+        $if(education.modules)$
+          \begin{cvitems}
+            $for(education.modules)$
+              \item {$education.modules$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Experience
+$if(experience)$
+  \cvsection{Experience}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(experience)$
+      \cventry
+      {$experience.position$}
+      {$experience.employer$}
+      {$experience.location$}
+      {$experience.period$}
+      {
+        $if(experience.roles)$
+          \begin{cvitems}
+            $for(experience.roles)$
+              \item {$experience.roles$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Presentation
+$if(presentations)$
+  \cvsection{Academic presentations}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(presentations)$
+      \cventry
+      {$presentations.conference$}
+      {$presentations.title$}
+      {$presentations.location$}
+      {$presentations.period$}
+      {
+        $if(presentations.description)$
+          \begin{cvitems}
+            $for(presentations.description)$
+              \item{$presentations.description$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Lectures
+$if(lectures)$
+  \cvsection{Invited lectures}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(lectures)$
+      \cventry
+      {$lectures.conference$}
+      {$lectures.title$}
+      {$lectures.location$}
+      {$lectures.period$}
+      {
+        $if(lectures.description)$
+          \begin{cvitems}
+            $for(lectures.description)$
+              \item{$lectures.description$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Publications
+$if(publications)$
+  \cvsection{Publications}
+  \begin{cvpublications}
+    $for(publications)$
+      \cvpublication
+      {$publications.title$}
+      {$publications.details$}
+      {$publications.location$}
+      {$publications.year$}
+    $endfor$
+\end{cvpublications}
+$endif$
+
+%% Additional research experience
+$if(research)$
+  \cvsection{Additional research experience}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(research)$
+      \cventry
+      {$research.position$}
+      {$research.project$}
+      {$research.location$}
+      {$research.period$}
+      {
+        $if(research.roles)$
+          \begin{cvitems}
+            $for(research.roles)$
+              \item {$research.roles$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Honors
+$if(honors)$
+  \cvsection{Honors \& awards}
+  % $for(honors)$
+    % \cvsubsection{$honors.type$}
+  \begin{cvhonors}
+    $for(honors)$
+      \cvhonor
+      {$honors.title$}
+      {$honors.organization$}
+      {$honors.location$}
+      {$honors.period$}
+    $endfor$
+  \end{cvhonors}
+  % $endfor$
+$endif$
+
+%% Extracurricular
+$if(extra)$
+  \cvsection{Extracurricular service \& volunteering}
+  \begin{cventries}
+    % --- Important empty line
+
+    $for(extra)$
+      \cventry
+      {$extra.role$}
+      {$extra.activity$}
+      {$extra.location$}
+      {$extra.period$}
+      {
+        $if(extra.description)$
+          \begin{cvitems}
+            $for(extra.description)$
+              \item{$extra.description$}
+            $endfor$
+          \end{cvitems}
+        $endif$
+      }
+      % --- Important empty line
+
+    $endfor$
+  \end{cventries}
+$endif$
+
+%% Languages
+$if(languages)$
+  \cvsection{Languages}
+  \begin{cvskills}
+    $for(languages)$
+      \cvskill
+      {$languages.language$}
+      {$languages.proficiency$}
+    $endfor$
+  \end{cvskills}
+$endif$
+
+%% Memberships
+$if(memberships)$
+  \cvsection{Memberships and affiliations}
+
+    \begin{cvparagraph}
+        \begin{itemize}[noitemsep]
+          $for(memberships)$
+            \item {$memberships.society$}
+          $endfor$
+      \end{itemize}
+    \end{cvparagraph}
+$endif$
+
+%% Skills
+$if(skills)$
+  \cvsection{Computing skills}
+  \begin{cvskills}
+    $for(skills)$
+      \cvskill
+      {$skills.topic$}
+      {
+        $for(skills.list)$
+          $skills.list$$sep$,
+        $endfor$
+      }
+    $endfor$
+  \end{cvskills}
+$endif$
+
+%% Writing
+% $if(writing)$
+%   \cvsection{Writing}
+%   \begin{cventries}
+%     $for(writing)$
+%       \cventry
+%       {$writing.role$}
+%       {$writing.title$}
+%       {$writing.location$}
+%       {$writing.period$}
+%       {
+%         $if(writing.description)$
+%           \begin{cvitems}
+%             $for(writing.description)$
+%               \item{$writing.description$}
+%             $endfor$
+%           \end{cvitems}
+%         $endif$
+%       }
+%     $endfor$
+%   \end{cventries}
+% $endif$
+
+%% Committees
+% $if(committees)$
+%   \cvsection{Program Committees}
+%   \begin{cvcommittees}
+%     $for(committees)$
+%       \cvcommittee
+%       {$committees.role$}
+%       {$committees.title$}
+%       {$committees.location$}
+%       {$committees.period$}
+%     $endfor$
+%   \end{cvcommittees}
+% $endif$
+
+\end{document}
