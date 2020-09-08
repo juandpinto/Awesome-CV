@@ -1,0 +1,23 @@
+---
+name:
+  first: Juan Daniel
+  last: Pinto
+# address:
+#   - 468 E 3125 N
+#   - Provo, UT 84604
+#   - USA
+born: June 28, 1988
+# phone: "(+1) 908-930-1221"
+email: "jdpinto@umich.edu"
+homepage: "https://juanpinto.me"
+# github: juandpinto
+# linkedin: pintobean
+# twitter: jdpinto1
+# mastodon: '@jdpinto@scholar.social'
+# skype: jdpinto16
+# position: [Language Pedagogue, Educational Technologist, Open-Science Advocate]
+color: awesome-red
+date: true
+
+# quote: "Must be the change that you want to see in the world."
+---

@@ -1,0 +1,33 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan—Ann Arbor
+    - School of Information
+
+letter:
+  job: Application for Graduate Student Instructor
+  opening: |
+    Dear Recruiting Manager,
+    \vspace{12pt}\
+    I was pleased to learn of the School of Information's opening for a GSI position to support its online Master of Applied Data Science. With my many varied teaching experiences, my data science and programming background, and my perspective as a learning experience design resident at Michigan's Center for Academic Innovation, I believe that I would be the perfect candidate for this position.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      My educational background is centered precisely around the effective use of digital educational environments. I have spent my year at Michigan studying design and technologies for learning while also working towards a certificate in learning experience design. This latter opportunity has allowed me to work on a variety of projects at the Center for Academic Innovation, most notably on different aspects of multiple Massive Open Online Courses. My experiences as both a designer and learner on these platforms have prepared me to provide valuable feedback and have effective interactions with MADS students.
+
+      As for my data science background, I have long been interested in the use of big data for improving educational environments. This interest has led me to complete a total of 20 courses on DataCamp, dealing with everything from importing and cleaning data in Python, creating visualizations using Matplotlib and Seaborn, manipulating DataFrames with Pandas, and machine learning with scikit-learn. In fact, I will begin pursuing a PhD this fall at the University of Illinois in learning science, specializing in educational data mining and learning analytics.
+
+      I have deeply enjoyed the opportunity to work with students and lead discussions as a Graduate Student Instructor these past two semesters. I have had many varied experiences teaching over the last few years, and interacting with students has always been the best part.
+
+  - name: Why Me?
+    text: |
+      My experiences and background have prepared me to be a knowledgeable, compassionate, and supportive GSI. My strong initiative and organizational skills would allow me to make a significant contribution to the School of Information's online courses. In terms of availability, I will be completing my coursework online through the edX platform this Spring/Summer, so my schedule is quite flexible. I look forward to hearing from you soon.
+---

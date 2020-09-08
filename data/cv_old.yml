@@ -1,0 +1,346 @@
+---
+# summary: |
+#   Language educator and researcher with experience teaching multiple languages, both domestically and abroad. Research interests lie at the intersections of second language acquisition, educational technology, and learning analytics. An avid advocate of open science, open source, and open education.
+
+
+
+education:
+  - period: 2019 – 2020
+    subject: "*Exptected* M.A. in Educational Studies"
+    institute: The University of Michigan
+    location: Ann Arbor, Michigan
+    modules:
+      - "**Emphasis:** Design and Technologies for Learning"
+      - "**Advisor:** Donald Freeman"
+  - period: 2016 - 2018
+    subject: M.A. in Middle Eastern Languages and Cultures
+    institute: The University of Texas at Austin
+    location: Austin, Texas
+    modules:
+      - "**Emphasis:** Hebrew Linguistics"
+      - "**Supervisors:** Esther Raizen, Elaine Horwitz"
+      - "**Thesis:** *Creating a Frequency Dictionary of Spoken Hebrew: A Reproducible Use of Technology to Overcome Scarcity of Data*"
+      - "**GPA:** 3.97"
+  - period: 2012 - 2016
+    subject: B.A. in Ancient Near Eastern Studies
+    institute: Brigham Young University
+    location: Provo, Utah
+    modules:
+      - "**Emphasis:** Hebrew Bible"
+      - "**Minors:** Linguistics, Modern Hebrew"
+      - "**GPA:** 3.92"
+
+experience:
+  - period: September 2019 - Present
+    employer: The University of Michigan - Center for Academic Innovation
+    position: Learning Experience Design Intern
+    location: Ann Arbor, Michigan
+    roles:
+      - "Working collaboratively with faculty and staff to design, analyze, and implement innovative learning experiences and tools in online and residential environments."
+  - period: September 2019 - Present
+    employer: The University of Michigan - School of Education
+    position: Graduate Student Instructor
+    location: Ann Arbor, Michigan
+    roles:
+      - "Leading discussion groups for students in *History of College Athletics* course taught by John U. Bacon."
+      - "Grading exams and term paper."
+  - period: May 2017 - Present
+    employer: VIPKid
+    position: Teacher of English as a Foreign Language
+    location: Online (Remote)
+    roles:
+      - "Teaching English to children in China, ages 5–12."
+      - "All coursework, preparation, testing, and reporting is done online."
+      - 'Courses taught include general English, phonics, "summer camp” English, and TOEFL Primary prep classes.'
+  - period: October 2018 - June 2019
+    employer: Oranim Academic College of Education
+    position: Fulbright English Teaching Assistant
+    location: Kiryat Tiv'on, Israel
+    roles:
+      - "Led class discussions in various advanced courses (*Academic Writing*, *Rhetoric*, *Linguistics*) for future English teachers."
+      - "Taught *English for the Workplace Conversation Course* for international students."
+      - "Prepared digital platform and leading workshops for Masa Israel Teaching Fellows."
+  - period: Aug. 2016 - May 2018
+    employer: The University of Texas at Austin - Center for Middle Eastern Studies
+    position: Graduate Teaching Assistant (Intensive Modern Hebrew)
+    location: Austin, Texas
+    roles:
+      - "Aided students in the acquisition of Hebrew language and culture."
+      - "Duties consisted of in-class feedback, grading, addressing concerns, general course organization, and teaching."
+  - period: Sep. 2014 - Aug. 2016
+    employer: Brigham Young University - Department of Asian and Near Eastern Languages
+    position: Research Assistant
+    location: Provo, Utah
+    roles:
+      - "Research for various projects and publications, primarily the Dead Sea Scrolls Editions."
+      - "Responsibilities included paleographic reading, reconstruction, dating, and analysis of biblical scrolls from cave 2Q, among other things."
+  - period: Jun. 2015 - Jul. 2016
+    employer: Brigham Young University - Religious Studies Center
+    position: Editor-in-Chief, *Studia Antiqua*
+    location: Provo, Utah
+    roles:
+      - "Internship covering all responsibilities pertaining to the student publication Studia Antiqua."
+      - "Duties included the handling of submission requests, faculty reviews, editing, publication, fundraising, and the organization of a student symposium."
+      - "Also responsible for overseeing the implementation of a new online database for the journal."
+  - period: Sep. 2012 - Apr. 2016
+    employer: Brigham Young University - David M. Kennedy Center for International Studies
+    position: Coordination Assistant
+    location: Provo, Utah
+    roles:
+      - "Worked with the coordinator of Ancient Near Eastern Studies to organize and manage students, classes, scheduling, budget, and faculty meetings."
+      - "Also coordinated all aspects of guest lecturer visits."
+  - period: Jun. 2015 - Aug. 2015
+    employer: Brigham Young University - Department of Asian and Near Eastern Languages
+    position: Assistant Instructor (Intensive Biblical Hebrew)
+    location: Provo, Utah
+    roles:
+      - "Taught the afternoon sessions of summer intensive biblical Hebrew (HEB 131 and 132), under the direction of a faculty member."
+  - period: Jan. 2015 - Jun. 2015
+    employer: Brigham Young University - Department of Religious Education
+    position: Research Assistant
+    location: Provo, Utah
+    roles:
+      - "Research for an in-depth faculty project dealing with the Jewish presence in Pompeii."
+      - "Included on-site research in Pompeii and the Naples Museum."
+      - "Led to multiple peer-reviewed publications by supervising faculty."
+  - period: Sep. 2013 - Dec. 2013
+    employer: Brigham Young University - David M. Kennedy Center for International Studies
+    position: Teaching Assistant (Introduction to Ancient Near Eastern Studies)
+    location: Provo, Utah
+    roles:
+      - "Addressed student concerns, graded papers and exams, and assisted with general course organization for Introduction to Ancient Near Eastern Studies (ANES 201)."
+  - period: Apr. 2013 - Sep. 2013
+    employer: BYU Studies (Journal)
+    position: Editorial Assistant
+    location: Provo, Utah
+    roles:
+      - "Proofreading, source checking, document organization, and general research for the Chiasmus Collection at the L. Tom Perry Special Collections of the Harold B. Lee Library."
+  - period: Sep. 2012 - Apr. 2013
+    employer: Brigham Young University - Department of Religious Education
+    position: Research Assistant
+    location: Provo, Utah
+    roles:
+      - "Research responsibilities included finding, organizing, and suggesting useful sources for academic papers and research projects."
+      - "Proofread and edited papers for presentation and publication."
+
+presentations:
+  - title: "*Creating a Conversational Hebrew Vocabulary List: A Reproducible Use of Technology to Overcome Scarcity of Data*"
+    conference: National Council of Less Commonly Taught Languages (NCOLCTL) 21st Annual Conference
+    location: Herndon, Virginia
+    period: Apr. 2018
+  - title: "*Transitional Semi-Allophonic Spirantization in Tiberian Hebrew*"
+    conference: Jil Jadid Graduate Student Conference in Middle Eastern Languages and Literatures
+    location: Austin, Texas
+    period: Feb. 2018
+  - title: "*Lexical Variation in the Understanding of *baraʾ*: Homonymy or Polysemy?*"
+    conference: Students of the Ancient Near East 8th Annual Symposium
+    location: Provo, Utah
+    period: Jan. 2015
+  - title: "*Spare [Them] a Little Longer: The Role of Prophetic Intercession in the Preservation of the Lord’s People*"
+    conference: BYU Religious Education Student Symposium
+    location: Provo, Utah
+    period: 2013
+
+lectures:
+  - title: "*#merica: History, Culture, and Diversity*"
+    conference: Sparks of Change—Galilee Dreamers Orientation
+    location: Albyan College, Deir el-Asad, Israel
+    period: Feb. 2019
+  - title: "*Words, Collocations, and Technology: Teaching and Learning Vocabulary*"
+    conference: Masa Israel Teaching Fellows Seminar
+    location: Tel Aviv, Israel
+    period: Jan. 2019
+  - title: "*Language Learning for the 21st Century: Interpersonal Communication Through Digital Communities*"
+    conference: 'Texas Language Center: "Language Matters!" Lecture Series'
+    location: Austin, TX (presented remotely)
+    period: Oct. 2018
+
+publications:
+  - title: "*Lexical Variation in the Understanding of *baraʾ*: Homonymy or Polysemy?*"
+    # year: 2015
+    # booktitle: Studia Antiqua
+    # volume: 14
+    # pages: 20-29
+    year: 2015
+    details: "Studia Antiqua 14, no. 1 (Spring 2015): 20–29."
+  - title: "*The Sacrificed God and Man’s Creation: Nonaggressive Violence in the Mesopotamian Atraḫasīs*"
+    year: 2014
+    details: "Studia Antiqua 13, no. 2 (Fall 2014): 14–25."
+
+honors:
+  - title: Graduate Student Instructorship
+    organization: School of Education, The University of Michigan
+    period: 2019
+  - title: Educational Studies Fellowship
+    organization: School of Education, The University of Michigan
+    period: 2019-2020
+  - title: Love of Learning Award
+    organization: The Honor Society of Phi Kappa Phi
+    period: 2019
+  - title: J. William Fulbright Fellowship to Israel
+    organization: J. William Fulbright Foreign Scholarship Board
+    period: 2018–2019
+  - title: NFMLTA Travel Support Grant for Language Professionals
+    organization: National Federation of Modern Language Teachers Associations
+    period: 2018
+  - title: Love of Learning Award
+    organization: The Honor Society of Phi Kappa Phi
+    period: 2017
+  - title: Graduate Student Teaching Assistantship
+    organization: Department of Middle Eastern Languages and Cultures, The University of Texas at Austin
+    period: 2016–2018
+  - title: BYU Representative for Phi Kappa Phi Fellowship
+    organization: The Honor Society of Phi Kappa Phi, Brigham Young University Chapter
+    period: 2016
+  - title: Full Tuition Academic Scholarship
+    organization: Brigham Young University
+    period: 2015–2016
+  - title: ORCA Research Grant
+    organization: Office of Research and Creative Activities, Brigham Young University
+    period: 2015
+  - title: Language Facilitator Scholarship
+    organization: Foreign Language Student Residence, Brigham Young University
+    period: 2015
+  - title: Kennedy Scholar
+    organization: David M. Kennedy Center for International Studies, Brigham Young University
+    period: 2014–2015
+  - title: Eugene D. and Edna L. Connor Academic Scholarship
+    organization: Brigham Young University
+    period: 2014–2015
+  - title: Jennifer C. Groot Fellowship
+    organization: American Center of Oriental Research
+    period: 2014
+  - title: Karl G. Maeser Academic Scholarship
+    organization: Brigham Young University
+    period: 2013–2014
+
+extra:
+  - activity: Sunrise Movement
+    period: 2019
+    location: Ann Arbor, Michigan
+    role: Member
+  - activity: Michigan Data Science Team - University of Michigan
+    period: 2019
+    location: Ann Arbor, Michigan
+    role: Member
+  - activity: Shimshit English Club
+    period: 2018–2019
+    location: Shimshit, Israel
+    role: Senior mentor for English students at Raeim School
+  - activity: Paper Airplanes
+    period: 2017
+    location: Remote (online)
+    role: Online ESL tutor for refugees
+  - activity: Boy Scouts of America - Troop 99
+    period: 2016–2017
+    location: Austin, Texas
+    role: Den leader
+  - activity: International Rescue Committee
+    period: 2016
+    location: Salt Lake City, Utah
+    role: Civics and citizenship ESL tutor for refugees
+  - activity: Students of the Ancient Near East - Brigham Young University
+    period: 2015–2016
+    location: Provo, Utah
+    role: President
+  - activity: Students of the Ancient Near East - Brigham Young University
+    period: 2013–2015
+    location: Provo, Utah
+    role: Vice president
+  - activity: The Church of Jesus Christ of Latter-day Saints
+    period: 2009–2011
+    location: Las Vegas, Nevada
+    role: Volunteer representative
+
+skills:
+  - topic: Data Science
+    list: [Python (NumPy, Pandas, Matplotlib, Seaborn)]
+  - topic: Web Programming
+    list: [HTML, CSS, Javascript, Python, Hugo, Jekyll]
+  - topic: Other
+    list: [Git, LaTeX, Adobe Photoshop]
+
+languages:
+  - language: Spanish
+    proficiency: Native
+  - language: English
+    proficiency: Native
+  - language: Modern Hebrew
+    proficiency: Superior
+  - language: Biblical Hebrew
+    proficiency: Reading
+  - language: French
+    proficiency: Conversational
+  - language: Arabic
+    proficiency: Limited
+
+# writing:
+#   - role: Founder & Writer
+#     title: A Guide for Developers in Start-up
+#     location: Facebook Page
+#     period: Jan. 2015 - PRESENT
+#     description:
+#       - Drafted daily news for developers in Korea about IT technologies, issues about start-up.
+#   - role: Undergraduate Student Reporter
+#     title: AhnLab
+#     location: S.Korea
+#     period: Oct. 2012 - Jul. 2013
+#     description:
+#       - Drafted reports about IT trends and Security issues on AhnLab Company magazine.
+
+# committees:
+#   - role: Problem Writer
+#     title: 1st Hoseo University Teenager Hacking Competition
+#     location: S.Korea
+#     period: 2012
+#   - role: Staff & Problem Writer
+#     title: JFF(Just for Fun) Hacking Competition
+#     location: S.Korea
+#     period: 2012
+
+memberships:
+  - society: American Council on the Teaching of Foreign Languages (ACTFL)
+  - society: National Association of Professors of Hebrew (NAPH)
+  - society: National Council of Less Commonly Taught Languages (NCOLCTL)
+  - society: Modern Language Association (MLA)
+  - society: Society of Biblical Literature (SBL)
+  - society: The Honor Society of Phi Kappa Phi
+  - society: Golden Key Honour Society
+  - society: Pembroke College Circle, University of Cambridge
+
+research:
+  - period: 2019 (ongoing)
+    project: Peace Education in Colombia
+    position: Graduate Research Assistant
+    location: Ann Arbor, Michigan
+    roles:
+      - "Translation and qualitative data coding and analysis on a large study being conducted by Dr. Michelle Bellino of the University of Michigan"
+  - period: 2019 (ongoing)
+    project: Synthetic Phonics for Young EFL Learners
+    position: Co-author and Junior Researcher
+    location: Kiryat Tiv'on, Israel
+    roles:
+      - "Research planning and quantitative data analysis for experimental study measuring the effectiveness of a synthetic phonics approach to EFL reading education in elementary schools in Israel."
+      - "Will also be involved with report writing."
+  - period: 2015
+    project: Jewish Pompeii Project
+    position: Research Assistant
+    location: Pompeii, Italy
+    roles:
+      - "On-site work as research assistant on project related to the Jewish presence in Pompeii."
+      - "Led to various publications by the lead researchers."
+  - period: 2014
+    project: BYU Archaeology Field School
+    position: Student Excavator
+    location: Petra, Jordan
+    roles:
+      - "Excavated as member of the archaeology team for the Ad-Deir Monument and Plateau Project."
+      - "Specialized in Nabataean numismatics and language."
+      - "Part of a multi-year project. Led to various publications."
+  - period: 2013
+    project: L. Tom Perry Special Collections
+    position: Intern
+    location: Provo, Utah
+    roles:
+      - "Editorial assistant for a multi-year chiasmus research project."
+---

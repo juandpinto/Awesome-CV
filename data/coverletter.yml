@@ -1,0 +1,34 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan
+    - College of Literature, Science, and the Arts
+    - Honors Program
+
+letter:
+  job: Application for HONORS 240 Graduate Student Instructor
+  opening: |
+    Dear Recruiting Manager,
+    \vspace{12pt}\
+    I was pleased to learn of the LSA Honors Program's opening for a Graduate Student Instructor for HONORS 240. With my many varied teaching experiences, my background in education and learning technologies, and my interest in wellness, I believe that I would be the perfect candidate for this position.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      I have spent the last few years teaching college students a range of topics, including the history of college athletics, academic writing, English rhetoric, linguistics, and Modern Hebrew. Throughout all of these experiences, my interactions with students—especially helping them succeed where they struggled most—has always been the most rewarding aspect. Recently, with the ongoing COVID-19 crisis, I've also been able to use my background in digital learning technologies to help various faculty members transition their courses to a remote platform. These experiences will allow me to hit the ground running as a GSI for an online course this summer.
+
+      In terms of writing experience, in addition to my academic writing and publishing experience, I have spent much of my teaching time editing and improving my students' writing, using skills that I developed as both a research assistant and editor-in-chief of a student journal.
+
+      My interest in wellness was only sparked a couple of years ago when my wife encouraged me to try meditation. Since then, I have deeply loved reading and learning about nutritional wellness, mental health, the role of exercise, the importance of sleep, and so much more. And while there is much in HONORS 240 that will be new to me, that fact excites me more than anything. I've learned as a GSI this past year that—despite being entirely new to the course's subject matter—my passion for quality educational experiences and my enthusiasm to learn new things can have a powerful impact on my students.
+
+  - name: Why Me?
+    text: |
+      My experiences and educational background have prepared me to be a knowledgeable, compassionate, and supportive GSI. My strong initiative and organizational skills will allow me to make a significant contribution to effective student learning in HONORS 240 this summer. I look forward to hearing from you soon.
+---

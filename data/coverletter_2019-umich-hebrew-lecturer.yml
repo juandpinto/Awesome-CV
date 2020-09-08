@@ -1,0 +1,44 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan—Ann Arbor
+    - College of Literature, Science, and the Arts
+    - Middle East Studies
+
+letter:
+  job: Job Application for Lecturer I in Hebrew Language
+  opening: |
+    Dear Search Committee,
+    \vspace{12pt}\
+    I was pleased to learn of your department's opening for a Hebrew lecturer position. With my background in second language acquisition and my experience teaching Hebrew (as well as English) at the university level, I would be a great addition to the University of Michigan's Modern Hebrew Language Program.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      Over the past several years, I have been teaching in various positions while completing an M.A. in Middle Eastern Languages and Cultures from the University of Texas at Austin. My studies placed heavy emphasis on second language acquisition courses, in which I learned about contemporary language teaching methodologies. I focused my personal research on the use of instructional technologies and the creation of educational materials for Modern Hebrew.
+      \vspace{8pt}\
+      Some of my teaching highlights include:
+      \vspace{4pt}\
+      • Teaching Intensive Modern Hebrew to university students as a Graduate Teaching Assistant for four semesters.\
+      • Teaching English as a Fulbright Fellow in Israel to Israeli college students and international Masa students.\
+      • Training Masa Israel English Teaching Fellows on foreign language teaching methodologies.\
+      • Using web technologies to teach English online to dozens of children in China.\
+      • Co-teaching an introductory Biblical Hebrew course at Brigham Young University.
+  - name: Why Me?
+    text: |
+      My educational background and teaching experience have prepared me to be a knowledgeable, compassionate, and charismatic Hebrew educator. My strong initiative and exceptional organizational skills would allow me to make a significant contribution to the University of Michigan's Hebrew curriculum and faculty. I would love to meet with you to discuss my potential contribution to your department. I look forward to hearing from you soon.
+---
+
+This letter should detail your interest in the position and explain to the committee how your educational background and work experience are relevant to it.
+
+- Organization skills
+- strong initiative
+- Extremely passionate
+- Strong computer skills

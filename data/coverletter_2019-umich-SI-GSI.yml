@@ -1,0 +1,36 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan—Ann Arbor
+    - School of Information
+
+letter:
+  job: Job Application for Graduate Student Instructor
+  opening: |
+    Dear Recruiting Manager,
+    \vspace{12pt}\
+    I was pleased to learn of the School of Information's opening for a graduate student instructor position to support its online master's degree program. With my teaching background, my ability to clearly communicate complex ideas, and my data science and programming experience, I believe that I would be a great candidate for this position.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      My background is primarily centered around the use of educational technology for language acquisition. However, my academic interests have taken me deep into the world of data science. While teaching myself Python in order to fulfill my vision for my master's thesis, I saw the potential of learning analytics to improve the learning process. I have sought to develop the necessary skills in data science that would allow me to better understand the impact of various technology-enhanced learning environments.
+
+      I have completed a total of 19 courses on DataCamp, dealing with topics such as importing and cleaning data in Python, creating visualizations using Matplotlib and Seaborn, manipulating DataFrames with Pandas, and statistical thinking in Python. All of my completed courses can be found at https://datacamp.com/profile/juanpinto.
+
+      As is evident on my GitHub profile (https://github.com/juandpinto), I like to pursue personal and academic projects that stretch my abilities. When I become curious about a specific technology or concept, I tend to read voraciously, tweak incessantly, and eventually succeed.
+
+      I also have considerable experience using online courses and learning systems. On Coursera and edX, I have studied topics including data analysis, computer science, ambitious teaching and learning, English teaching, and even modern history. This has allowed me to develop a sense of the different ways in which online classes are organized, the activities that engage me in the learning process most, and the qualities of online teaching aides that I have found most helpful.
+
+
+  - name: Why Me?
+    text: |
+      My experiences and background have prepared me to be a knowledgeable, compassionate, and supportive GSI. My strong initiative and organizational skills would allow me to make a significant contribution to the School of Information's online courses. In terms of availability this coming semester, I am able to work TWTh mornings and MF afternoons. I look forward to hearing from you soon.
+---

@@ -1,0 +1,33 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan
+    - Center for Academic Innovation
+
+letter:
+  job: Application for Research Fellow
+  opening: |
+    Dear Recruiting Manager,
+    \vspace{12pt}\
+    I was pleased to learn of the Center for Academic Innovation's opening for a research fellow. With my background in education, my experiences teaching and leading discussion groups, my ability to clearly communicate complex ideas, and my data science and programming experience, I believe that I would be a great candidate for this position.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      My academic interests in education and learning design have taken me deep into the world of educational research and data science. My master's thesis at the University of Texas consisted of gathering and analyzing massive datasets of movie subtitles in order to create a frequency dictionary of spoken modern Hebrew (all code can be found on [my GitHub profile](https://github.com/juandpinto)). Through this process, I became very interested in the potential of learning analytics to improve learning design. Since then, I have sought to develop the necessary skills in data science that would allow me to better understand the impact of various technology-enhanced learning environments.
+
+      To this end, I have completed a total of 20 courses on DataCamp, dealing with topics such as importing and cleaning data in Python, creating visualizations using Matplotlib and Seaborn, manipulating DataFrames with Pandas, and using Scikit-Learn for machine learning. I've also recently completed a large data cleaning task and exploratory data analysis using Jupyter Notebooks for a research project with a faculty member at UM's School of Education involving both quantitative and qualitative data.
+
+      Additionally, my time as a learning experience design intern at AI has exposed me to many different aspects of the design, iteration, and research processes central to AI's educational projects. I will continue in this position during the winter semester, and adding a research fellowship at AI would further allow me to develop the skills I need to effectively contribute to educational research in the future. This is the type of career I hope to have.
+
+  - name: Why Me?
+    text: |
+      All of these experiences have prepared me to be a knowledgeable and collaborative research fellow. My strong initiative and desire to improve education will allow me to make a significant contribution to the Center for Academic Innovation's research and learning initiatives. I look forward to hearing from you.
+---

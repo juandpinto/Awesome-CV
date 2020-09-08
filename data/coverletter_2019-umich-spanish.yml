@@ -1,0 +1,36 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan—Ann Arbor
+    - College of Literature, Science, and the Arts
+    - Romance Languages and Literature
+
+letter:
+  job: Aplicación para la posición de maestro de español elemental
+  opening: |
+    Estimado director del programa de idiomas elementales,
+    \vspace{12pt}\
+    Me complació saber sobre la búsqueda en su departamento de un maestro de español. Con mi conocimiento sobre aprendizaje de idiomas, mi experiencia enseñando lenguajes al nivel universitario, y mi lengua nativa siendo el español, yo sería una gran adición al programa de idiomas y literaturas romances de la Universidad de Michigan.
+  # default is "Sincerely,"
+  closing: Atentamente,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      Estos últimos años he estado enseñando en varias posiciones mientras completaba una maestría en idiomas y culturas del medio oriente en la Universidad de Texas en Austin. Mis estudios se enfocaron específicamente en la adquisición de segundos idiomas, donde aprendí acerca de las metodologías contemporáneas de enseñanza de idiomas. Enfoqué mi investigación personal en el uso de tecnologías de instrucción y la creación de materiales educativos.
+      \vspace{8pt}\
+      Algunas de mis experiencias de enseñanza incluyen:
+      \vspace{4pt}\
+      • Enseñar inglés como becario Fulbright en Israel a estudiantes universitarios Israelíes y estudiantes internacionales de Masa durante un año.\
+      • Enseñar hebreo moderno intensivo a estudiantes universitarios como asistente de enseñanza de posgrado durante cuatro semestres.\
+      • Entrenar a becarios de enseñanza de inglés de Masa en metodologías de enseñanza de idiomas extranjeros.\
+      • Usar tecnologías de internet para enseñar inglés en línea a docenas de niños en China.
+  - name: Why Me?
+    text: |
+      Mi formación académica y experiencia pedagógica me han preparado para ser un educador conocedor, compasivo y carismático. Mi fuerte iniciativa y habilidades organizativas excepcionales me permitirán hacer una contribución significativa a los estudiantes de español de la Universidad de Michigan. Me encantaría ser entrevistado para hablar sobre mi posible contribución al programa de idiomas y literaturas romances. Le agradezco la atención que me pueda dispensar y estoy a su disposición para cualquier aclaración de mis calificaciones.
+---

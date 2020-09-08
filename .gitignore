@@ -22,5 +22,5 @@
 *.DS_Store
 
 ### Personal Details ###
-results/*.pdf
-data/*.yml
+# results/*.pdf
+# data/*.yml

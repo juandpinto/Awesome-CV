@@ -1,0 +1,33 @@
+---
+recipient:
+  # name: Company Recruitment Team
+  address:
+    - University of Michigan—Ann Arbor
+    - College of Literature, Science, and the Arts
+    - English Language Institute
+
+letter:
+  job: Job Application for ELI Graduate Writing Clinic Consultant
+  opening: |
+    Dear ELI Director and Writing Clinic Faculty Mentor,
+    \vspace{12pt}\
+    I was pleased to learn of the Graduate Writing Clinic's opening for a consultant position. With my background in second language acquisition and my experience teaching English and academic writing at the university level, I believe that I would be a great addition to the team at the English Language Institute.
+  # default is "Sincerely,"
+  closing: Sincerely,
+  # attachments: [Curriculum Vitae]
+
+# if removed or set to false, regular layout is used
+pretty: false
+
+sections:
+  - name: About Me
+    text: |
+      Over this last school year, I have been working in various capacities as a Fulbright English Teaching Assistant at Oranim College in Israel. My primary responsibilities include helping in academic writing, rhetoric, and linguistics courses and meeting with students to help with their seminar papers. I also lead an English-in-the-workplace conversation course for international students.
+
+      My previous graduate studies at the University of Texas at Austin placed heavy emphasis on a knowledge of second language acquisition. In many of my courses, I learned about contemporary language teaching methodologies while working as a teaching assistant for some intensive Hebrew classes.
+
+      In addition to my own academic writing and publishing, I also spent much time during my undergraduate studies strenghtening my writing and editing abilities while working as a research assistant. These experiences culminated in my selection to serve as editor-in-chief of a student journal, *Studia Antiqua*, throughout my last year at Brigham Young University.
+  - name: Why Me?
+    text: |
+      My experiences and educational background have prepared me to be a knowledgeable, compassionate, and supportive writing consultant. My strong initiative and exceptional organizational skills would allow me to make a significant contribution to the students and scholars who come to the Graduate Writing Clinic. I would love to interview with you to discuss my potential contribution to the English Language Institute. I look forward to hearing from you soon.
+---
