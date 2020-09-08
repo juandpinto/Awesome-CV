@@ -5,6 +5,15 @@
 
 
 education:
+  - period: (Expected) 2025
+    subject: "Ph.D. in Curriculum and Instruction"
+    institute: University of Illinois at Urbana-Champaign
+    location: Urbana-Champaign, Illinois
+    modules:
+      - "**Emphasis:** Digital Environments for Learning, Teaching, and Agency (DELTA)"
+      - "**Advisor:** Luc Paquette"
+      - "**Focus:** Educational Data Science"
+      # - "**Current GPA:** 4.0"
   - period: August 2020
     subject: "M.A. in Educational Studies"
     institute: University of Michigan
@@ -13,7 +22,7 @@ education:
       - "**Emphasis:** Design and Technologies for Learning Across Contexts and Cultures"
       - "**Advisor:** Donald Freeman"
       - "**Certificate:** Learning Experience Design"
-      - "**Current GPA:** 4.0"
+      - "**GPA:** 4.0"
   - period: May 2018
     subject: M.A. in Middle Eastern Languages and Cultures
     institute: The University of Texas at Austin
@@ -34,19 +43,30 @@ education:
 
 
 research:
-  # - period: December 2019 – Present
-  #   employer: Automating the Assessment of MOOC Pedagogies
-  #   position: Graduate Research Assistant
-  #   location: Ann Arbor, Michigan
-  #   roles:
-  #     -
+  - period: August 2020 – Present
+    employer: Modeling Student Debugging Behavior
+    position: Researcher
+    location: Urbana-Champaign, Illinois
+    roles:
+      -
+  - period: July 2020 – August 2020
+    employer: Project-Based Learning and COVID-19 in a Computational Thinking MOOC
+    position: First Author
+    location: Ann Arbor, Michigan
+    roles:
+      -
+  - period: May 2020 – August 2020
+    employer: Comparing Discussion Posts from One MOOC Hosted on Two Platforms
+    position: Co-Author
+    location: Ann Arbor, Michigan
+    roles:
+      -
   - period: March 2019 – January 2020
     employer: Synthetic Phonics for Young EFL Learners (Oranim College of Education)
-    position: Co-author and Junior Researcher
+    position: Junior Researcher
     location: Kiryat Tiv'on, Israel
     roles:
       - "Conducted quantitative data analysis for experimental study measuring the effectiveness of a synthetic phonics approach to EFL reading education in elementary schools in Israel."
-      - "Will contribute to final report writing and publication."
   - period: September 2019 – December 2019
     employer: Peace Education During Colombia’s Peace Process (University of Michigan)
     position: Graduate Research Assistant
@@ -104,7 +124,13 @@ research:
 
 
 teaching:
-  - period: September 2019 - Present
+  - period: August 2020 – Present
+    employer: College of Education (University of Illinois at Urbana-Champaign)
+    position: Graduate Student Instructor
+    location: Urbana-Champaign, Illinois
+    roles:
+      - "Lead discussion section for students in *Introduction to Digital Learning Environments* course."
+  - period: September 2019 - April 2020
     employer: School of Education (University of Michigan)
     position: Graduate Student Instructor
     location: Ann Arbor, Michigan
@@ -149,14 +175,20 @@ teaching:
 
 
 experience:
-  - period: March 2020 - Present
+  - period: April 2020 – August 2020
+    employer: Center for Academic Innovation (University of Michigan)
+    position: Learning Experience Design Research Fellow
+    location: Ann Arbor, Michigan
+    roles:
+      -
+  - period: March 2020 - May 2020
     employer: School of Education (University of Michigan)
     position: Online Course Transition Assistant
     location: Ann Arbor, Michigan
     roles:
       - Advise and support faculty members with their emergency transition of residential courses to online during the COVID-19 pandemic.
       - Gain personal experience on the difficulty of such a transition on short notice and develop insights on ways that current tools and systems can improve to better support instructors and learners during future crises.
-  - period: September 2019 - Present
+  - period: September 2019 - April 2020
     employer: Center for Academic Innovation (University of Michigan)
     position: Learning Experience Design Student Resident
     location: Ann Arbor, Michigan
@@ -185,6 +217,10 @@ experience:
 
 
 presentations:
+  - title: "*Personalizing Digital Learning Environments*"
+    conference: Research Evaluation and Action Plan (REAP) Symposium
+    location: Urbana-Champaign, Illinois (Virtual)
+    period: July 2020
   - title: "*Using Data to Inform Learning Experience Design*"
     conference: Academic Innovation 2020 Student Showcase
     location: Ann Arbor, Michigan (Virtual)
@@ -225,6 +261,9 @@ lectures:
     period: October 2018
 
 pubs:
+  - title: "*Exemplifying Computational Thinking Scenarios in the Age of COVID-19: Examining the Pandemic’s Effects in a Project-Based MOOC*"
+    details: "(Accepted) *Computing in Science and Engineering (CiSE). Preprint: https://doi.org/10.22541/au.159853847.70685470*"
+    year: 2020
   - title: "*Lexical Variation in the Understanding of *baraʾ*: Homonymy or Polysemy?*"
     details: "*Studia Antiqua* 14, no. 1 (Spring 2015): 20–29."
     year: 2015
@@ -236,6 +275,10 @@ honors:
   - title: Illinois Distinguished Fellowship
     organization: University of Illinois at Urbana-Champaign
     period: 2020–2023
+    location: Urbana-Champaign, Illinois
+  - title: Summer Pre-Doctoral Institute Fellowship
+    organization: Graduate College, University of Illinois at Urbana-Champaign
+    period: 2020
     location: Urbana-Champaign, Illinois
   - title: James A. Kelly Learning Levers Development Award
     organization: Center for Education Design, Evaluation, and Research (CEDER), University of Michigan
@@ -302,10 +345,10 @@ honors:
     location: Provo, Utah
 
 extra:
-  # - activity: Michigan Data Science Team (University of Michigan)
-  #   period: 2020
-  #   location: Ann Arbor, Michigan
-  #   role: Member
+  - activity: Sunrise Movement
+    period: 2020–Present
+    location: Normal, Illinois
+    role: Member
   - activity: Shimshit English Club
     period: 2018–2019
     location: Shimshit, Israel
